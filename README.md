@@ -75,6 +75,7 @@ Can this problem be solved by OOP? Let's look at an OO Python example (or more
 Python-esque, if you will).
 
 So far so good. There's a lot more lines, but the intent is clear; and it might scale better.
+Let's try...
 
 
 &nbsp;
