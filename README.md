@@ -15,7 +15,7 @@ Any (and all) comments welcome; but please remember that these examples are desi
 certain features of Scala_, and are not necessarily shining examples of how to write code more generally. 
 
 
-  
+  ¯\_(ツ)_/¯
 
 
 ---
