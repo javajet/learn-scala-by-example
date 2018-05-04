@@ -11,6 +11,9 @@ Python language.
 Examples hope to provide an understanding of what, how and why Scala does things the way it does them.
 
 
+Please be aware, you won't find any examples of Scalaz, Cats or Shapeless here - it's just techniques, libraries and approaches 
+included for use within the standard Scala SDK.
+
 Any (and all) comments welcome; but please remember that these examples are designed _to demonstrate
 certain features of Scala_, and are not necessarily shining examples of how to write code more generally. 
 
