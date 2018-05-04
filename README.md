@@ -15,7 +15,9 @@ Any (and all) comments welcome; but please remember that these examples are desi
 certain features of Scala_, and are not necessarily shining examples of how to write code more generally. 
 
 
-       ¯\\_(ツ)\_/¯
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¯\\_(ツ)\_/¯
+
+&nbsp;
 
 
 ---
@@ -26,6 +28,10 @@ The Examples
 
 ---
 ---
+
+
+&nbsp;
+
 
 **1. Python `example-1.py`**
 
@@ -45,6 +51,10 @@ what is meant by this.
 
 ---
 
+
+&nbsp;
+
+
 **2. Python `example-2.py`**
 
 _Object-oriented Example._
@@ -56,6 +66,10 @@ So far so good. There's a lot more lines, but the intent is clear; and it might 
 
 
 ---
+
+
+&nbsp;
+
 
 **3. Python `example-3.py`**
 
@@ -75,6 +89,10 @@ Even the exceptions must be caught and handled somewhere.  And you can (hopefull
 
 ---
 
+
+&nbsp;
+
+
 **4. Scala `kitchen.example-1.scala`**
 
 _Basic Example of Making a Cup of Tea in Scala._ 
@@ -87,6 +105,10 @@ Here's the first look at our familiar tea making example in Scala.  This example
 - Print statement
 
 ---
+
+
+&nbsp;
+
 
 **5. Scala `kitchen.example-2.scala`**
 
@@ -105,6 +127,10 @@ After introducing `Try`, intent of the algorithms, types and logic are fairly un
 NOTE: there are now _four_ print statements resulting in extra code, this is incidental and can be ignored
 
 ---
+
+
+&nbsp;
+
 
 **6. Scala `kitchen.example-3.scala`**
 
@@ -126,7 +152,11 @@ NOTE: Print statements now support the following scenarios:
 
 ---
 
-**6. Scala `kitchen.example-4.scala`**
+
+&nbsp;
+
+
+**7. Scala `kitchen.example-4.scala`**
 
 _Basic Scala Example with Two Futures._ 
 
@@ -148,7 +178,11 @@ NOTE: Print statements now support the following scenarios:
 
 ---
 
-**7. Scala `kitchen.example-5.scala`**
+
+&nbsp;
+
+
+**8. Scala `kitchen.example-5.scala`**
 
 _Other Interesting Features._ 
 
@@ -163,7 +197,11 @@ This example just shows some other features of Scala:
 
 ---
 
-**8. Scala `race.racing-example.scala`**
+
+&nbsp;
+
+
+**9. Scala `race.racing-example.scala`**
 
 _Bonus Example_ 
 
