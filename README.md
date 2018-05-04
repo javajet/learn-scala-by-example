@@ -15,6 +15,9 @@ Any (and all) comments welcome; but please remember that these examples are desi
 certain features of Scala_, and are not necessarily shining examples of how to write code more generally. 
 
 
+&nbsp;
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¯\\_(ツ)\_/¯
 
 &nbsp;
@@ -49,6 +52,10 @@ get difficult to follow and the overall intent will be lost / reduced.
 NOTE: I have not actually added extra complexities here, but hopefully you get 
 what is meant by this.
 
+
+&nbsp;
+
+
 ---
 
 
@@ -63,6 +70,9 @@ Can this problem be solved by OOP? Let's look at an OO Python example (or more
 Pythonesque, if you will).
 
 So far so good. There's a lot more lines, but the intent is clear; and it might scale better.
+
+
+&nbsp;
 
 
 ---
@@ -87,6 +97,9 @@ getting more difficult to read and understand - _despite using Python OO techniq
 Even the exceptions must be caught and handled somewhere.  And you can (hopefully) see how this would only get worse with time.
 
 
+&nbsp;
+
+
 ---
 
 
@@ -103,6 +116,10 @@ Here's the first look at our familiar tea making example in Scala.  This example
 - Algorithm
 - Supporting functions
 - Print statement
+
+
+&nbsp;
+
 
 ---
 
@@ -125,6 +142,10 @@ some extra error scenario information (`BadMilk`, `ColdWater`, etc) and, to deal
 After introducing `Try`, intent of the algorithms, types and logic are fairly unchanged.
 
 NOTE: there are now _four_ print statements resulting in extra code, this is incidental and can be ignored
+
+
+&nbsp;
+
 
 ---
 
@@ -149,6 +170,10 @@ NOTE: Print statements now support the following scenarios:
 - A Boiled Kettle (sunny day scenario)
 - A Half-Boiled Kettle (returns wrong value)
 - A Faulty Kettle (doesnt return at all)
+
+
+&nbsp;
+
 
 ---
 
@@ -176,6 +201,10 @@ NOTE: Print statements now support the following scenarios:
 - A Faulty Kettle
 - No Milk in Fridge
 
+
+&nbsp;
+
+
 ---
 
 
@@ -193,6 +222,9 @@ This example just shows some other features of Scala:
 - Case Classes: universal templates for object / variables
 - Use of Pre-conditions & Post-conditions: DbC
 - Passing Implicit Parameters
+
+
+&nbsp;
 
 
 ---
