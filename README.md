@@ -224,7 +224,7 @@ This example just shows some other features of Scala:
 
 - Traits: abstract types used to define variables
 - Sealed Traits: used to provide enumerations (a.k.a _Algebraic Data Types_)
-- Case Classes: universal templates for object / variables
+- Case Classes: universal templates for objects / variables
 - Use of Pre-conditions & Post-conditions: DbC
 - Passing Implicit Parameters
 
