@@ -175,7 +175,7 @@ class Drink:
         self.ingredients = []
         self.ingredients.append(beverage_type)
 
-    def add_water(self, water):
+    def with_water(self, water):
         """
         Add some water to the drink
 
@@ -185,7 +185,7 @@ class Drink:
         self.ingredients.append(water)
         return self
 
-    def add_milk(self, milk):
+    def with_milk(self, milk):
         """
         Add some milk to the drink
 
@@ -195,7 +195,7 @@ class Drink:
         self.ingredients.append(milk)
         return self
 
-    def add_sugar(self, sugar):
+    def with_sugar(self, sugar):
         """
         Add some sugar to the drink.
 
@@ -242,11 +242,11 @@ def make_drink(beverage_type, water, milk, sugar):
 
     drink = Drink(beverage_type)
     if water.is_hot():
-        drink.add_water(water)
+        drink.with_water(water)
         if not milk.is_off():
-            drink.add_milk(milk)
+            drink.with_milk(milk)
             try:
-                drink.add_sugar(sugar)
+                drink.with_sugar(sugar)
             except ValueError as e:
                 return e.message
 

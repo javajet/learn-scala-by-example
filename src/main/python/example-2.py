@@ -121,7 +121,7 @@ class Drink:
         self.ingredients = []
         self.ingredients.append(beverage_type)
 
-    def add_water(self, water):
+    def with_water(self, water):
         """
         Add some water to the drink
 
@@ -131,7 +131,7 @@ class Drink:
         self.ingredients.append(water)
         return self
 
-    def add_milk(self, milk):
+    def with_milk(self, milk):
         """
         Add some milk to the drink
 
@@ -141,7 +141,7 @@ class Drink:
         self.ingredients.append(milk)
         return self
 
-    def add_sugar(self, sugar):
+    def with_sugar(self, sugar):
         """
         Add some sugar to the drink
 
@@ -183,9 +183,9 @@ def make_drink(flavour, water, milk, sugar):
     """
 
     return Drink(flavour)\
-        .add_water(water)\
-        .add_milk(milk)\
-        .add_sugar(sugar)\
+        .with_water(water)\
+        .with_milk(milk)\
+        .with_sugar(sugar)\
         .stir()
 
 
