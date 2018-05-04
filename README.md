@@ -165,7 +165,8 @@ _Scala Example with a Future._
 
 We can extend this example to include an extra step in the tea making process - a boiling kettle!
 
-Scala supports asynchronous processes (processes that require time to execute without blocking) 
+Although, this might take some time and we'll have to wait for it to finish.
+Scala supports _asynchronous_ processes (i.e. processes that require time to execute and are handled without blocking) 
 using `Future`s (another Scala wrapper).
 
 This provides minimal impact on the structure of the code while still allowing all the error 
@@ -193,7 +194,7 @@ _Scala Example with Two Futures._
 
 We can extend even more, to add another processing step - getting milk out of the fridge.
 
-The code now uses two asynchronous processes, it waits for the kettle to boil and for the milk to arrive 
+Again, this might take some time, so now the code uses two asynchronous processes, it waits for the kettle to boil and for the milk to arrive 
 from the fridge.  You can see that while this 
 has added more code, it's still readable and the intent is still very clear.  
 
