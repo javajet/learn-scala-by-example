@@ -18,6 +18,11 @@ certain features of Scala_, and are not necessarily shining examples of how to w
 &nbsp;
 
 
+All code compiles and runs.  But there are no tests.
+
+&nbsp;
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¯\\_(ツ)\_/¯
 
 &nbsp;
@@ -129,7 +134,7 @@ Here's the first look at our familiar tea making example in Scala.  This example
 
 **5. Scala `kitchen.example-2.scala`**
 
-_Basic Scala Example with Validation._ 
+_Scala Example with Validation._ 
 
 Let's add in the same validation as before... 
 
@@ -155,7 +160,7 @@ NOTE: there are now _four_ print statements resulting in extra code, this is inc
 
 **6. Scala `kitchen.example-3.scala`**
 
-_Basic Scala Example with Future._ 
+_Scala Example with a Future._ 
 
 We can extend this example to include an extra step in the tea making process - a boiling kettle!
 
@@ -183,7 +188,7 @@ NOTE: Print statements now support the following scenarios:
 
 **7. Scala `kitchen.example-4.scala`**
 
-_Basic Scala Example with Two Futures._ 
+_Scala Example with Two Futures._ 
 
 We can extend even more, to add another processing step - getting milk out of the fridge.
 
