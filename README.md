@@ -1,4 +1,14 @@
-# Scala Examples
+# Learn Scala By Example
+
+Some examples to assist in the understanding of Scala, particularly when transitioning from the 
+Python language.  
+
+
+Examples hope to provide an understanding of what, how and why Scala does things the way it does them.
+
+
+Any (and all) comments welcome; but please remember that these examples are designed _to demonstrate
+certain features of Scala_, and are not necessarily shining examples of how to write code generally. 
 
 
 ---
@@ -152,6 +162,3 @@ A final, more advanced example, including usage of:
 - Currying
 
 ***
-
-Any (and all) comments welcome; but please remember that these examples are designed _to demonstrate
-certain features of Scala_, and are not necessarily shining examples of how to write code generally. 
