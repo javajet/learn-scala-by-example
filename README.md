@@ -143,7 +143,9 @@ You should notice that nothing much has changed.  We've introduced
 some extra error scenario information (`BadMilk`, `ColdWater`, etc) and, to deal with the possible failures, we import 
 `Try` - one of those wrappers (or monads) that Scala comes with: 
 
+
 `import scala.util.{Try, Success, Failure}`
+
 
 After introducing `Try`, intent of the algorithms, types and logic are fairly unchanged.
 
@@ -194,12 +196,14 @@ _Scala Example with Two Futures._
 
 We can extend even more, to add another processing step - getting milk out of the fridge.
 
-Again, this might take some time, so now the code uses two asynchronous processes, it waits for the kettle to boil and for the milk to arrive 
-from the fridge.  You can see that while this 
+Again, this might take some time, so now the code uses two asynchronous processes, it 
+waits for the kettle to boil and for the milk to arrive from the fridge.  
+You can see that while this 
 has added more code, it's still readable and the intent is still very clear.  
 
 Contrast this with the layers of conditional logic we saw before 
 (without the constructs that Scala provides).
+
 
 NOTE: Print statements now support the following scenarios:
 
