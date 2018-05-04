@@ -226,13 +226,14 @@ NOTE: Print statements now support the following scenarios:
 
 _Other Interesting Features._ 
 
-This example just shows some other features of Scala:
+This example just shows how you might want to extend the Tea Making process 
+using some other features of Scala:
 
-- Traits: abstract types used to define variables
+- Traits: abstract types used to define and constrain variables
 - Sealed Traits: used to provide enumerations (a.k.a _Algebraic Data Types_)
 - Case Classes: universal templates for objects / variables
-- Use of Pre-conditions & Post-conditions: DbC
-- Passing Implicit Parameters
+- Use of Pre-conditions & Post-conditions: used to ensure objectds are always configured correctly
+- Passing Implicit Parameters: simplify code by automatically injecting state 
 
 
 &nbsp;
