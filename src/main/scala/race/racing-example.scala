@@ -43,7 +43,9 @@ object Driver extends App {
 
   /*************************************/
 
-
+  // THE FOLLOWING TWO FUNCTIONS DO *EXACTLY* THE SAME THING
+  // USING TWO DIFFERENT SCALA TECHNIQUES (THEY ARE FUNCTIONALLY
+  // EQUIVALENT). PRESENTED HERE AS AN ILLUSTRATION OF `FOR COMPREHENSION`
   val enterRaceMethod1: Race = {
 
     case (usingMoney, buyCar, raceAroundTrack) =>
