@@ -255,7 +255,7 @@ _Bonus Example_
 A final, more advanced example, including usage of:
 
 - Composite Types
-- Functional Composition (2 different approaches: `enterRaceMethod1` & `enterRaceMethod1`)
+- Functional Composition (2 different approaches: `enterRaceMethod1` & `enterRaceMethod2`)
 - Mix-ins (`with`)
 - Implicit Classes (extending existing Types)
 - Currying
