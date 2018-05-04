@@ -1,5 +1,6 @@
 # Learn Scala By Example
 
+---
 
 ## Introduction
 
@@ -16,11 +17,14 @@ certain features of Scala_, and are not necessarily shining examples of how to w
 
 DG
 
-.
+
+---
 
 
 ## The Examples
 
+
+---
 
 **1. Python `example-1.py`**
 
