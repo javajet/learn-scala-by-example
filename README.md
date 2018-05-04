@@ -14,7 +14,8 @@ Examples hope to provide an understanding of what, how and why Scala does things
 Any (and all) comments welcome; but please remember that these examples are designed _to demonstrate
 certain features of Scala_, and are not necessarily shining examples of how to write code more generally. 
 
-.
+
+  
 
 
 ---
