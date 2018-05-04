@@ -40,7 +40,7 @@ The Examples
 
 _Basic Example of Making a Cup of Tea._ 
 
-The idea here is to familiarise yourself with this basic example in python 
+The idea here is to familiarise yourself with this basic example in Python 
 (a language you know well?) so that you will understand later examples.
 
 The code here makes a cup of tea in pretty much the way you would expect.
@@ -67,7 +67,7 @@ what is meant by this.
 _Object-oriented Example._
 
 Can this problem be solved by OOP? Let's look at an OO Python example (or more 
-Pythonesque, if you will).
+Python-esque, if you will).
 
 So far so good. There's a lot more lines, but the intent is clear; and it might scale better.
 
