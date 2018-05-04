@@ -250,4 +250,10 @@ A final, more advanced example, including usage of:
 - Implicit Classes (extending existing Types)
 - Currying
 
-***
+&nbsp;
+
+
+---
+
+&nbsp;
+
