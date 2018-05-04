@@ -8,7 +8,7 @@ Some examples to assist in the understanding of Scala, particularly aimed at pro
 Python language.  
 
 
-Examples hope to provide an understanding of what, how and why Scala does things the way it does them.
+Examples hope to provide an understanding of what, how and why Scala does the things it does.
 
 
 Please be aware, you won't find any examples of Scalaz, Cats or Shapeless here - it's just techniques, libraries and approaches 
@@ -126,6 +126,8 @@ Here's the first look at our familiar tea making example in Scala.  This example
 - Supporting functions
 - Print statement
 
+This code is similar to the Python example, roughly the same number of lines, 
+and the intent is reasonably clear.
 
 &nbsp;
 
@@ -150,7 +152,7 @@ some extra error scenario information (`BadMilk`, `ColdWater`, etc) and, to deal
 `import scala.util.{Try, Success, Failure}`
 
 
-After introducing `Try`, intent of the algorithms, types and logic are fairly unchanged.
+I hope you can agree, after introducing `Try`, intent of the algorithms, types and logic are fairly unchanged.
 
 NOTE: there are now _four_ print statements resulting in extra code, this is incidental and can be ignored
 
@@ -170,8 +172,8 @@ _Scala Example with a Future._
 
 We can extend this example to include an extra step in the tea making process - a boiling kettle!
 
-Although, this might take some time and we'll have to wait for it to finish.
-Scala supports _asynchronous_ processes (i.e. processes that require time to execute and are handled without blocking) 
+Although, boiling water might take some time and we'll have to wait for the kettle to finish.
+For this, Scala supports _asynchronous_ processes (i.e. processes that require time to execute and are handled without blocking) 
 using `Future`s (another Scala wrapper).
 
 This provides minimal impact on the structure of the code while still allowing all the error 
