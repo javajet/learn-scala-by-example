@@ -155,15 +155,11 @@ object Driver extends App {
   /*************************************/
 
 
-  //  type Race = EntryCriteria => RaceOutcome
-
-  //  type EntryCriteria = (Money, Money => Car, Car => RaceOutcome)
-
-  //  Second Parameter: "Money => Car"
-
   //  val purchaseNewCar: (Dealership, Money) => Car
 
   //  val franchise: Dealership
+
+  //  Second Parameter of EntryCriteria: "Money => Car"
 
   val localGarage = purchaseNewCar curried (franchise)
 
