@@ -43,9 +43,9 @@ object Driver extends App {
 
   /*************************************
     *
-    * THE FOLLOWING TWO FUNCTIONS DO
+    * THE FOLLOWING THREE FUNCTIONS DO
     * *EXACTLY* THE SAME THING USING
-    * TWO DIFFERENT SCALA TECHNIQUES
+    * DIFFERENT SCALA TECHNIQUES
     * (THEY ARE EQUIVALENT IN TERMS
     * OF FUNCTIONALITY). PRESENTED
     * HERE AS AN ILLUSTRATION OF THE
@@ -60,7 +60,6 @@ object Driver extends App {
     case (usingMoney, buyCar, raceAroundTrack) =>
 
       raceAroundTrack( buyCar(usingMoney) )
-      // f(x), g(x) -> y = g(f(x))
   }
 
 
@@ -78,6 +77,20 @@ object Driver extends App {
 
     } get
   }
+
+  val enterRaceMethod3: Race = {
+
+    case (usingMoney, buyCar, raceAroundTrack) => {
+
+      val bothBuyCarAndEnterRace = raceAroundTrack compose buyCar
+
+      bothBuyCarAndEnterRace apply usingMoney
+
+      // f(x), g(x) -> f( g(x) )
+
+    }
+  }
+
 
 
   /*************************************/
@@ -171,6 +184,13 @@ object Driver extends App {
   }
 
 
+  println {
+
+    enterRaceMethod3((creditCard, localGarage, raceAroundTrack))
+
+  }
+
+
   /*************************************/
 
 
@@ -187,9 +207,9 @@ object Driver extends App {
 
   printer((finance, localGarage, raceAroundTrack), enterRaceMethod2)
 
-  printer((creditCard, localGarage, raceAroundTrack), enterRaceMethod1)
+  printer((creditCard, localGarage, raceAroundTrack), enterRaceMethod3)
 
-  printer((stolenMoney, localGarage, raceAroundTrack), enterRaceMethod2)
+  printer((stolenMoney, localGarage, raceAroundTrack), enterRaceMethod1)
 
 
   /*************************************/
