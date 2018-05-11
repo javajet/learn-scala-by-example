@@ -39,7 +39,7 @@ object Muggins3 extends App {
 
   val GONE_BAD = new Milk("Gone Bad")
 
-  val INVALID_SUGAR = new Sugar("Marmite")
+  val INVALID_SUGAR = new Sugar("Salt")
 
 
   /*************************************/
