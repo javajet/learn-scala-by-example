@@ -12,3 +12,4 @@ dependency-reduced-pom.xml
 nohup.out
 derby.log
 metastore_db/
+lib/
