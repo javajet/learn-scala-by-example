@@ -277,11 +277,11 @@ _Clojure Example of Making a Cup of Tea._
 
 For those who are still reading, you will have noticed some Clojure examples 
 in the repo that offer simple versions of our by-now-familiar 
-_making a cup of tea_ conundrum, in Clojure.
+_making a cup of tea_ conundrum, written in Clojure.
 
 - Example 1: basic, readable
 - Example 2: uses a threading macro (`->`))
-- Example 3: introduces (basic) error handling using the `some->` threading macro
+- Example 3: introduces (basic) error handling using the `some->` threading macro.  `some->` ensures that if any step is unsuccessful, the remaining steps are shortcut (without an exception thrown or error raised).  Instead `nil` is returned, which is Clojure dialect for 'something went wrong'.
 
 
 ---
