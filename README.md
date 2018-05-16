@@ -201,7 +201,7 @@ _Scala Example with Two Futures._
 
 We can extend even more, to add another processing step - getting milk out of the fridge.
 
-Again, this might take some time, so now the code uses two asynchronous processes, it 
+Again, this might take some time.  So, now the code uses two asynchronous processes, it 
 waits for the kettle to boil and for the milk to arrive from the fridge.  
 You can see that while this 
 has added more code, it's still readable and the intent is still very clear.  
@@ -237,7 +237,7 @@ using some other features of Scala:
 - Traits: abstract types used to define and constrain variables
 - Sealed Traits: used to provide enumerations (a.k.a _Algebraic Data Types_)
 - Case Classes: universal templates for objects / variables
-- Use of Pre-conditions & Post-conditions: used to ensure objectds are always configured correctly
+- Use of Pre-conditions & Post-conditions: used to ensure objects are always configured correctly
 - Passing Implicit Parameters: simplify code by automatically injecting state 
 
 
@@ -257,12 +257,31 @@ _Bonus Example_
 A final, more advanced example, including usage of:
 
 - Composite Types
-- Functional Composition (2 different approaches: `enterRaceMethod1` & `enterRaceMethod2`)
+- Functional Composition (3 different approaches: `enterRaceMethod1`, `enterRaceMethod2` & `enterRaceMethod3`)
 - Mix-ins (`with`)
 - Implicit Classes (extending existing Types)
 - Currying
 
 &nbsp;
+
+---
+---
+
+Bonus
+===============
+
+---
+---
+
+_Clojure Example of Making a Cup of Tea._ 
+
+For those who are still reading, you will have noticed some Clojure examples 
+in the repo that offer simple versions of our by-now-familiar 
+_making a cup of tea_ conundrum, in Clojure.
+
+- Example 1: basic, readable
+- Example 2: uses a threading macro (`->`))
+- Example 3: introduces (basic) error handling using the `some->` threading macro
 
 
 ---
