@@ -289,9 +289,9 @@ _making a cup of tea_ conundrum, written in Clojure.
 &nbsp;
 
 
-Next steps would be to introduce monads into Clojure to give more granular and 
-flexible error reporting and asynchronous processing - but I leave that as an
-exercise for the reader!
+Next steps would be to introduce monads into this Clojure code (as we did before with Scala)
+to give more granular and flexible error reporting and asynchronous processing - but 
+I leave that as an exercise for the reader!
 
 
 &nbsp;
