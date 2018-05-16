@@ -262,7 +262,9 @@ A final, more advanced example, including usage of:
 - Implicit Classes (extending existing Types)
 - Currying
 
+
 &nbsp;
+
 
 ---
 ---
@@ -282,6 +284,17 @@ _making a cup of tea_ conundrum, written in Clojure.
 - Example 1: basic, readable
 - Example 2: uses a threading macro (`->`))
 - Example 3: introduces (basic) error handling using the `some->` threading macro.  `some->` ensures that if any step is unsuccessful, the remaining steps are shortcut (without an exception thrown or error raised).  Instead `nil` is returned, which is Clojure dialect for 'something went wrong'.
+
+
+&nbsp;
+
+
+Next steps would be to introduce monads into Clojure to give more granular and 
+flexible error reporting and asynchronous processing - but I leave that as an
+exercise for the reader!
+
+
+&nbsp;
 
 
 ---
