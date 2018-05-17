@@ -25,6 +25,9 @@ object Muggins4 extends App {
 
   type IngredientList = (Flavouring, Future[Water], Future[Milk], Sugar)
 
+  type DrinkResult = Future[Drink]
+
+
 
   /*************************************/
 
@@ -47,7 +50,7 @@ object Muggins4 extends App {
   /*************************************/
 
 
-  val makeDrink: IngredientList => Future[Drink] = {
+  val makeDrink: IngredientList => DrinkResult = {
 
     case (flavour: Flavouring, boilWater: Future[Water], milkFromFridge: Future[Milk], sugar: Sugar) => for {
 
