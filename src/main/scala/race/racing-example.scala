@@ -78,13 +78,12 @@ object Driver extends App {
     } get
   }
 
+
   val enterRaceMethod3: Race = {
 
     case (usingMoney, buyCar, raceAroundTrack) => {
 
-      val bothBuyCarAndEnterRace = raceAroundTrack compose buyCar
-
-      bothBuyCarAndEnterRace apply usingMoney
+      buyCar andThen raceAroundTrack apply usingMoney
 
       // f(x), g(x) -> f( g(x) )
 
