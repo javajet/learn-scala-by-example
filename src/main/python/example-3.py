@@ -207,7 +207,7 @@ class Drink:
             self.ingredients.append(sugar)
             return self
         else:
-            raise ValueError('Wrong Sugar')
+            raise ValueError('ERROR: Wrong Sugar')
 
     def stir(self):
         """
@@ -254,7 +254,9 @@ def make_drink(beverage_type, water, milk, sugar):
 
             return drink
         else:
-            return 'Bad Milk'
+            return 'ERROR: Bad Milk'
+    else:
+        return 'ERROR: Cold Water'
 
 
 def main():

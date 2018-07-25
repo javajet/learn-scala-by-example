@@ -283,12 +283,12 @@ _making a cup of tea_ conundrum, written in Clojure.
 
 - Example 1: basic, readable
 - Example 2: uses a threading macro (`->`))
-- Example 3: introduces (basic) error handling using the `some->` threading macro.  `some->` ensures that if any step is unsuccessful, the remaining steps are shortcut (without an exception thrown or error raised).  Instead `nil` is returned, which is Clojure dialect for 'something went wrong'.
-
+- Example 3: introduces (basic) error han
 
 &nbsp;
 
 
+dling using the `some->` threading macro.  `some->` ensures that if any step is unsuccessful, the remaining steps are shortcut (without an exception thrown or error raised).  Instead `nil` is returned, which is Clojure dialect for 'something went wrong'.
 Next steps would be to introduce monads into this Clojure code (as we did before with Scala)
 to give more granular and flexible error reporting and asynchronous processing - but 
 I leave that as an exercise for the reader!

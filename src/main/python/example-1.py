@@ -42,6 +42,24 @@ def main():
     print ', '.join(drink)
 
 
+'''
+    if is_water_hot():
+        add_water('Hot Water', drink)
+        if not is_milk_bad():
+            add_milk('Semi-Skimmed Milk', drink)
+            if is_sugar():
+                add_sugar('No Sugar', drink)
+                stir(drink)
+                print ', '.join(drink)
+            else:
+                print 'error: sugar required'
+        else:
+            print 'error: milk gone off'
+    else:
+        print 'error: cold water'
+'''
+
+
 if __name__ == '__main__':
     main()
 
