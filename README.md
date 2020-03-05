@@ -4,24 +4,22 @@
 
 ## Introduction
 
-Some examples to assist in the understanding of Scala, particularly aimed at programmers coming from the 
-Python language.  
+Some examples to assist in the understanding of how to manage growing complexity in code, demonstrated in Scala.
 
 
-Examples hope to provide an understanding of what, how and why Scala does the things it does.
+Examples hope to provide an understanding of how to deal with code complexity and maintain readability when dealing with increasing functional and non-functional pressures.
 
 
-Please be aware, you won't find any examples of Scalaz, Cats or Shapeless here - it's just techniques, libraries and approaches 
-included for use within the standard Scala SDK.
+You won't find any examples of Scalaz, Cats or Shapeless here - it's just basic techniques and approaches included for use within the standard Scala SDK.
 
 Any (and all) comments welcome; but please remember that these examples are designed _to demonstrate
-certain features of Scala_, and are not necessarily shining examples of how to write code more generally. 
+certain techniques_, and are not necessarily examples of how to write code outside of their context. 
 
 
 &nbsp;
 
 
-All code compiles and runs.  But there are no tests.
+All code compiles and runs.
 
 &nbsp;
 
