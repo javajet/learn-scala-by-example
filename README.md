@@ -4,16 +4,15 @@
 
 ## Introduction
 
-Some examples to assist in the understanding of how to manage growing complexity in code, demonstrated in Scala.
+Some examples to assist in the understanding of techniques to manage growing complexity in code, demonstrated in Scala.
 
 
-Examples hope to provide an understanding of how to deal with code complexity and maintain readability when dealing with increasing functional and non-functional pressures.
+Examples hope to provide an understanding of how to deal with growing code complexity and maintain readability when dealing with increasing functional and non-functional pressures.
 
 
 You won't find any examples of Scalaz, Cats or Shapeless here - it's just basic techniques and approaches included for use within the standard Scala SDK.
 
-Any (and all) comments welcome; but please remember that these examples are designed _to demonstrate
-certain techniques_, and are not necessarily examples of how to write code outside of their context. 
+Please remember that these examples are designed _to demonstrate how to avoid certain problems_, and are not necessarily examples of how to write code outside that context. 
 
 
 &nbsp;
